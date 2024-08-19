@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.trytonvanmeer.libretrivia.activities.TriviaGameResultsActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:tint="@color/colorTextSecondary"
+        android:src="@drawable/ic_clipboard_text" />
+
+    <!-- Total Answers -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:text="@string/ui_results_total"
+            style="@style/ResultText" />
+
+        <TextView
+            android:id="@+id/text_results_total"
+            style="@style/ResultText"
+            tools:text="10" />
+
+    </LinearLayout>
+
+    <!-- Correct Answers -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:textColor="@color/colorAccentGreen"
+            android:text="@string/ui_results_correct"
+            style="@style/ResultText" />
+
+        <TextView
+            android:id="@+id/text_results_correct"
+            style="@style/ResultText"
+            tools:text="6" />
+
+    </LinearLayout>
+
+    <!-- Wrong Answers-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:textColor="@color/colorAccentRed"
+            android:text="@string/ui_results_wrong"
+            style="@style/ResultText"/>
+
+        <TextView
+            android:id="@+id/text_results_wrong"
+            style="@style/ResultText"
+            tools:text="4" />
+
+    </LinearLayout>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button_return_to_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/ui_return_to_menu"
+            style="@style/Button" />
+
+    </LinearLayout>
+
+</LinearLayout>
