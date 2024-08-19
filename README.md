@@ -1,5 +1,5 @@
-Developed a 2D car racing game using Python, employing the Pygame library for game development and graphical rendering.
-Designed and implemented game mechanics including car controls, collision detection, and scoring systems to create an engaging and interactive experience.
-Created visually appealing game assets and animations, incorporating smooth and responsive controls for a realistic driving experience.
-Implemented game logic and level progression, ensuring balanced difficulty and maintaining player engagement.
-Optimized game performance and user interface for smooth gameplay on various hardware configurations.
+Designed and developed an interactive quiz game application for Android using Java/Kotlin, focusing on engaging user experiences and intuitive interfaces.
+Implemented features such as real-time score tracking, multiple-choice questions, and timed quizzes to enhance gameplay.
+Utilized Android SDK tools and frameworks to ensure smooth performance and compatibility across various Android devices.
+Incorporated a database to manage questions and user progress, leveraging SQLite/Room for efficient data handling and storage.
+Integrated user-friendly navigation and responsive design principles to provide an optimal experience on different screen sizes.
